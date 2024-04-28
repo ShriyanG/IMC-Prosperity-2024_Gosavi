@@ -35,7 +35,7 @@
 
 
 
-**Round 4 products to trade (Amethysts, Starfruit, Orchids, Gift baskets, Strawberries, Roses, Chocolates, Coconut_Coupons, Coconuts):**
+**Round 4 products to trade (Amethysts, Starfruit, Orchids, Gift baskets, Strawberries, Roses, Chocolates, Coconut Coupons, Coconuts):**
 
 **Amethysts and Starfruit:** No changes to the strategy
 
@@ -43,7 +43,7 @@
 
 **Gift baskets, Strawberries, Roses, Chocolates:** No changes to the strategy
 
-**Coconut_Coupons:** The coupons mimicked buy options and I tried to model the price of the coupons using the Black-Scholes option pricing model and this prediction seemed to work very well with the previous data that was provided. I used the backtester to then see what range for a price differential would work best for buying and selling these options. 
+**Coconut Coupons:** The coupons mimicked buy options and I tried to model the price of the coupons using the Black-Scholes option pricing model and this prediction seemed to work very well with the previous data that was provided. I used the backtester to then see what range for a price differential would work best for buying and selling these options. 
 
 **Coconuts:** The coconuts did seem to be trading in trends so I tried to model the price using linear regression but this did not seem to work too well and was heavily dependent on the last price. Instead I used Bollinger Bands on coconuts and I used a a standard deviation value of 1.95 above and below since this generated a decent PnL without any loss on the backtester. I decided to use this rather than the prototypical 2.0 standard deviations since this had a higher upside for profits. 
 
