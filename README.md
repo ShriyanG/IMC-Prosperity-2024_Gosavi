@@ -5,6 +5,7 @@
 **Round Strategies**
 
 **Round 1 products to trade (Amethysts and Starfruit)**
+
 **Amethysts:** The price was stable at an average of 10,000 so I used the straightforward strategy of market-taking and market-making.
 
 **Starfruit:** After graphing the prices from the data given it seemed to follow trends pretty clearly and it seemed to fit with linear regression pretty well. After running the linear regression model it seemed to have an RMSE of above 0.9 in some cases even 0.95 so the model seemed to fit it very well. I then optimized the number of coefficients by running it on a test dataset in the model as well as on the backtest and it seemed like 4 seemed to be an ideal number so I used the last 4 timestamps for the price prediction.
