@@ -53,12 +53,12 @@
 
 **Round 5 products to trade (Amethysts, Starfruit, Orchids, Gift baskets, Strawberries, Roses, Chocolates, Coconut_Coupons, Coconuts):**
 
-I did an analysis on each round after the traders were being disclosed for rounds 1, 3, and 4. For round 1, I tried mimicking the strategy of some of the profitable traders however this did not generate too large of a difference in PnL and I decided to continue with my strategy. For Round 3, I kept my strategy for the gift basket but for chocolates and roses it seemed like Remy was making suboptimal trades and Vinnie was making optimal trades so I decided to use those two traders as indicators for buy and sell signals. I did the same for round 4 goods but they turned out to not be as profitable and I decided to stick with my original strategy. 
-
 **Amethysts and Starfruit:** No changes to the strategy
 
 **Orchids:** No changes to the strategy
 
 **Gift baskets and Coconut Coupons:** No changes to the strategy
 
-**Chocolate and Roses:** Use Remy and Vinnie as buy and sell signals for these two commodities. 
+**Chocolate and Roses:** I did an analysis on each round after the traders were being disclosed for rounds 1, 3, and 4. For round 1, I tried mimicking the strategy of some of the profitable traders however this did not generate too large of a difference in PnL and I decided to continue with my strategy. For Round 3, I kept my strategy for the gift basket but for chocolates and roses it seemed like Remy was making suboptimal trades and Vinnie was making optimal trades so I decided to use those two traders as indicators for buy and sell signals. I did the same for round 4 goods but they turned out to not be as profitable and I decided to stick with my original strategy.
+
+**Manual Trading:** This was pretty difficult to model quantitatively since the only information that was given was a newspaper article for all the goods. I decided to model the relationship between the percentage of seashells put into a product as well as the fee at each respective percentage point. After this I decided to keep all the percentage points close to minimize risk and then put higher percentages into stronger buy and sell signals. 
