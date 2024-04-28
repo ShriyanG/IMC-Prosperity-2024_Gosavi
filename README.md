@@ -32,3 +32,19 @@
 **Chocolates, Roses and Strawberries:** I set up a correlation matrix between these goods to check if there was another opportunity for pairs trading but this did not seem to work. I also set up the Bollinger bands for each separate products and it seemed to potentially work for chocolate and roses but the PnL was relatively low and if the range was reduced for the Bollinger bands then there was a good chance that I would end up with a negative for these goods so I decided not to risk it after the last round and my decent PnL on the gift baskets. 
 
 **Manual Trading:** This Manual Trading round was pretty tricky since other people’s decisions were also factored into the total PnL. I decided to set up a graph for a visual and rank the profits for each square in the expedition. The first expedition was pretty much a guaranteed profit so I decided to go for the cell with the fourth or fifth greatest profit since others might pick the first couple which may decrease the profit. The second expedition seemed to have profits up until the 10% mark of people choosing a tile so I essentially eyeballed it and used the graph to pick a tile that would give a profit for one of the largest possible percentages of people picking that respective tile. I did not take the risk for the third expedition as I would have to be pretty lucky to get a profit on that tile with the increased cost of the expedition. 
+
+
+
+**Round 4 products to trade (Amethysts, Starfruit, Orchids, Gift baskets, Strawberries, Roses, Chocolates, Coconut_Coupons, Coconuts):**
+
+**Amethysts and Starfruit:** No changes to the strategy
+
+**Orchids:** No changes to the strategy
+
+**Gift baskets, Strawberries, Roses, Chocolates:** No changes to the strategy
+
+**Coconut_Coupons:** The coupons mimicked buy options and I tried to model the price of the coupons using the Black-Scholes option pricing model and this prediction seemed to work very well with the previous data that was provided. I used the backtester to then see what range for a price differential would work best for buying and selling these options. 
+
+**Coconuts:** The coconuts did seem to be trading in trends so I tried to model the price using linear regression but this did not seem to work too well and was heavily dependent on the last price. Instead I used Bollinger Bands on coconuts and I used a a standard deviation value of 1.95 above and below since this generated a decent PnL without any loss on the backtester. I decided to use this rather than the prototypical 2.0 standard deviations since this had a higher upside for profits. 
+
+**Manual Trading:** This was pretty much the same manual trading problem from the first round but it was made more difficult since other’s bids were taken into account for the higher bid. I tried graphing this again but I just went ahead and eyeballed it instead and used judgement from the previous round. I wanted to get more bids even if the profit for each one was not the high for the lower bid so I took the results from the first round for the average lower bid and went a little higher than that. For the higher bid I wanted to maximize my chances of receiving matches for the bid rather than for profit so I took the average for the higher bid from round 1 and I went higher than this. 
