@@ -48,3 +48,17 @@
 **Coconuts:** The coconuts did seem to be trading in trends so I tried to model the price using linear regression but this did not seem to work too well and was heavily dependent on the last price. Instead I used Bollinger Bands on coconuts and I used a a standard deviation value of 1.95 above and below since this generated a decent PnL without any loss on the backtester. I decided to use this rather than the prototypical 2.0 standard deviations since this had a higher upside for profits. 
 
 **Manual Trading:** This was pretty much the same manual trading problem from the first round but it was made more difficult since other’s bids were taken into account for the higher bid. I tried graphing this again but I just went ahead and eyeballed it instead and used judgement from the previous round. I wanted to get more bids even if the profit for each one was not the high for the lower bid so I took the results from the first round for the average lower bid and went a little higher than that. For the higher bid I wanted to maximize my chances of receiving matches for the bid rather than for profit so I took the average for the higher bid from round 1 and I went higher than this. 
+
+
+
+**Round 5 products to trade (Amethysts, Starfruit, Orchids, Gift baskets, Strawberries, Roses, Chocolates, Coconut_Coupons, Coconuts):**
+
+I did an analysis on each round after the traders were being disclosed for rounds 1, 3, and 4. For round 1, I tried mimicking the strategy of some of the profitable traders however this did not generate too large of a difference in PnL and I decided to continue with my strategy. For Round 3, I kept my strategy for the gift basket but for chocolates and roses it seemed like Remy was making suboptimal trades and Vinnie was making optimal trades so I decided to use those two traders as indicators for buy and sell signals. I did the same for round 4 goods but they turned out to not be as profitable and I decided to stick with my original strategy. 
+
+**Amethysts and Starfruit:** No changes to the strategy
+
+**Orchids:** No changes to the strategy
+
+**Gift baskets and Coconut Coupons:** No changes to the strategy
+
+**Chocolate and Roses:** Use Remy and Vinnie as buy and sell signals for these two commodities. 
