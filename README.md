@@ -1,6 +1,8 @@
 **IMC-Prosperity-2024**
 
-**Final Rank:**
+**Final Rank: 239 out of 9139 teams**
+<img width="1440" alt="Results" src="https://github.com/ShriyanG/IMC-Prosperity-2024_Gosavi/assets/68485981/11659a1f-c609-49c5-af8f-698dae7fafb0">
+
 
 **Round Strategies**
 
